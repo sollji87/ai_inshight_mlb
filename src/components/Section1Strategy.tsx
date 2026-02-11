@@ -190,7 +190,7 @@ export default function Section1Strategy() {
           {[
             { label: "Q1 할인율", target: "≤6.0%", current: "현재 7.3%" },
             { label: "신발 재고주수", target: "≤40주", current: "현재 55.3주" },
-            { label: "25F 의류 판매율", target: "≥75%", current: "현재 49.6%" },
+            { label: "25F 의류 판매율", target: "≥60%", current: "현재 49.6%" },
             { label: "연간 영업이익률", target: "15%", current: "현재 13.8%" },
           ].map((kpi) => (
             <div
