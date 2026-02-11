@@ -96,8 +96,8 @@ export default function Section5Store() {
                 </thead>
                 <tbody>
                   <tr className="danger-row"><td><b>타임테라스동탄</b></td><td>직영</td><td className="num text-red"><b>-4</b></td><td className="num text-red">-0.6%</td><td className="num text-red">+8.7%p</td></tr>
-                  <tr className="danger-row"><td><b>롯데분당</b></td><td>백화</td><td className="num">2</td><td className="num text-red">-19.2%</td><td className="num text-red">+7.0%p</td></tr>
-                  <tr className="danger-row"><td><b>갤러리아진주</b></td><td>백화</td><td className="num">2</td><td className="num text-red">-49.2%</td><td className="num">+0.3%p</td></tr>
+                  <tr className="danger-row"><td><b>롯데분당</b></td><td>백화점</td><td className="num">2</td><td className="num text-red">-19.2%</td><td className="num text-red">+7.0%p</td></tr>
+                  <tr className="danger-row"><td><b>갤러리아진주</b></td><td>백화점</td><td className="num">2</td><td className="num text-red">-49.2%</td><td className="num">+0.3%p</td></tr>
                 </tbody>
               </table>
               <ul style={{ marginTop: "3px" }}>
@@ -113,10 +113,10 @@ export default function Section5Store() {
                   <tr><th>매장</th><th>채널</th><th className="num">직접이익</th><th className="num">매출YoY</th></tr>
                 </thead>
                 <tbody>
-                  <tr><td>롯데상인</td><td>백화</td><td className="num">3</td><td className="num text-red">-33.9%</td></tr>
-                  <tr><td>엔터식스왕십리</td><td>백화</td><td className="num">4</td><td className="num text-red">-16.0%</td></tr>
-                  <tr><td>롯데포항</td><td>백화</td><td className="num">4</td><td className="num">+5.1%</td></tr>
-                  <tr><td>신세계광주</td><td>백화</td><td className="num">7</td><td className="num text-red">-5.6%</td></tr>
+                  <tr><td>롯데상인</td><td>백화점</td><td className="num">3</td><td className="num text-red">-33.9%</td></tr>
+                  <tr><td>엔터식스왕십리</td><td>백화점</td><td className="num">4</td><td className="num text-red">-16.0%</td></tr>
+                  <tr><td>롯데포항</td><td>백화점</td><td className="num">4</td><td className="num">+5.1%</td></tr>
+                  <tr><td>신세계광주</td><td>백화점</td><td className="num">7</td><td className="num text-red">-5.6%</td></tr>
                 </tbody>
               </table>
               <ul style={{ marginTop: "3px" }}>
