@@ -88,7 +88,7 @@ export default function Section2Executive() {
               <div className="box-title green">효율성 극대화</div>
               <ul>
                 <li>
-                  매장 162→150개(-12개) 축소에도 점당매출 <b>118%</b> 성장
+                  비효율 매장 정리에 따른 점당매출 <b>118%</b> 성장
                 </li>
                 <li>영업비율 14.2%→13.3% (-0.9%p) 개선</li>
                 <li>인원 146→138명(-8명), 인당매출 221백만(+17%)</li>

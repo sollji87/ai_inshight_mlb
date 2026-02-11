@@ -23,8 +23,8 @@ export default function Section1Strategy() {
               </div>
               <ul>
                 <li>현재 7.3%(YoY +2.6%p) — 신발 13.3%, 가방 10.4%로 급등</li>
-                <li>신발·가방 프로모션 SKU 50% 축소, 정가 판매 집중</li>
-                <li>자사몰 쿠폰 VIP 등급 이상 제한, 할인율 10% 이하</li>
+                <li>26S 시즌 할인율 4% 목표 (1월 차기시즌 의류 할인율 3.7%유지중)</li>
+                <li>25F 시즌 종료 임박에 따른 프로모션을 통한 겨울상품 판매촉진, 25FW DJ/DV/PD/WB 품목 구매 시 10% OFF 및 카카오 플친 프로모션 진행중</li>
                 <li>
                   <b>기대효과:</b> 할인율 1%p↓ 시 직접이익 <b>+290백만원</b>
                 </li>
@@ -51,7 +51,7 @@ export default function Section1Strategy() {
 
             <div className="box box-red">
               <div className="box-title red">
-                3. 25F 의류 시즌 마감 → 목표: 판매율 49.6%→75%
+                3. 25F 의류 시즌 마감 → 목표: 판매율 49.6%→60%
               </div>
               <ul>
                 <li>
@@ -60,9 +60,6 @@ export default function Section1Strategy() {
                 <li>
                   2/15~28 &quot;25FW Final Sale&quot; 전 채널 동시 진행(할인
                   20~30%)
-                </li>
-                <li>
-                  <b>기대효과:</b> 75% 달성 시 재고 <b>약 44억원</b> 감축
                 </li>
               </ul>
             </div>
@@ -80,12 +77,11 @@ export default function Section1Strategy() {
               </div>
               <ul>
                 <li>현 플래그쉽 매출 2,356백만(+139%), 직접이익률 39.3%</li>
-                <li>북촌(26S)·도산(26F) 오픈, 27S 수원행궁 추가</li>
-                <li>
-                  목표: 점당 월 300백만 → 연간 <b>72억원</b> 추가 매출
-                </li>
-              </ul>
-            </div>
+                <li>북촌 26/3/20 오픈예정</li>
+<li>북촌 월 1.2억 목표 (1.2억 기준 직접이익 월 0.4억, 직접이익률 35%)</li>
+              <li>26년 연간 북촌 12억, 도산 7억 계획 중</li>
+            </ul>
+          </div>
 
             <div className="box box-yellow">
               <div className="box-title yellow">5. 온라인 채널 고도화</div>
@@ -96,9 +92,7 @@ export default function Section1Strategy() {
                 <li>
                   자사몰: 멤버십 락인·독점 상품 20%, 할인율 10%↓ 목표
                 </li>
-                <li>
-                  제휴몰: 신제품 런칭·정가 판매, 무신사 수수료 26.8%→24%
-                </li>
+                <li>제휴몰: 신제품 런칭·정가 판매, 무신사 수수료 25.8% (1%p인하 제안 중)</li>
               </ul>
             </div>
 
@@ -107,7 +101,7 @@ export default function Section1Strategy() {
                 6. 면세점 구조조정 완료
               </div>
               <ul>
-                <li>면세 비중 30.2%→목표 25%, 직접이익률 30%+ 유지</li>
+                <li>1월 면세 비중 30.2%, 26년 연간 1,200억 내 운영 목표, 직접이익률 30% + 유지</li>
                 <li>
                   신라/신세계 3개점 -26~32% 하락 — 저수익 매장 철수 검토
                 </li>
