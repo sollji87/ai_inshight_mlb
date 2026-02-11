@@ -53,13 +53,13 @@ export default function Section3Channel() {
                 <tbody>
                   <tr className="success-row"><td>명동중앙</td><td className="num">589</td><td className="num">+131%</td><td className="num">45.5%</td></tr>
                   <tr className="success-row"><td>성수</td><td className="num">334</td><td className="num">신규</td><td className="num">49.2%</td></tr>
-                  <tr className="warn-row"><td>한남</td><td className="num">31</td><td className="num">-208%</td><td className="num">18.5%</td></tr>
+                  <tr className="warn-row"><td>한남</td><td className="num">31</td><td className="num">흑자전환</td><td className="num">18.5%</td></tr>
                 </tbody>
               </table>
               <ul style={{ marginTop: "4px" }}>
                 <li>명동중앙 61.7% 기여도 — 단일매장 의존도 초집중 리스크</li>
                 <li>성수 월 7억 수준으로 채널 2번째 축 형성</li>
-                <li className="text-red">한남 적자 직전 — 3개월 턴어라운드 또는 축소 결정 필요</li>
+                <li className="text-red">한남 2개월 연속 직접이익 달성, 매출 성장으로 이익레버리지 상승필요</li>
               </ul>
             </div>
           </div>

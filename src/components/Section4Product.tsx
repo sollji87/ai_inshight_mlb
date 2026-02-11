@@ -88,7 +88,7 @@ export default function Section4Product() {
                 <li>26S시즌 <b>8월말 50주</b> 관리 목표, 26년말 <b>40주</b> 적정재고 달성</li>
               </ul>
               <div style={{ fontSize: "8px", marginTop: "3px", padding: "4px", background: "#fff", borderRadius: "2px" }}>
-                <b>소진 계획:</b> 청키/라이너 37억 면세 재운영 | 뮬/슬립온 백화점 35억 | 스니커즈 39억 대리점/직영 | 잔여분 아울렛 이관(6.2억) + 소각(2.1억 손상품)
+                <b>소진 계획:</b> 청키/라이너 37억 면세 재운영 | 뮬/슬립온 백화점 35억 | 스니커즈 39억 대리점/직영 | 잔여분 아울렛 이관(62억) + 소각(21억 손상품)
               </div>
             </div>
 

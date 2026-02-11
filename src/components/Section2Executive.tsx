@@ -215,8 +215,7 @@ export default function Section2Executive() {
               <div
                 style={{ fontSize: "7.5px", color: "#c53030", marginTop: "3px" }}
               >
-                ※ 자사몰(14.1%) vs 제휴몰(2.2%) 할인율 차이 11.9%p — 채널간
-                가격정책 불일치
+                채널간 가격 경쟁 불일치 대신 쿠폰 사용 등 자사몰 유입 프로모션 진행
               </div>
             </div>
 
