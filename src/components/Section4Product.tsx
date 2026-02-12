@@ -121,11 +121,11 @@ export default function Section4Product() {
                   <tr><th>아이템</th><th className="num">비중</th><th className="num">원가율</th><th className="num">증감</th><th className="num">TAG단가</th></tr>
                 </thead>
                 <tbody>
-                  <tr><td>다운점퍼</td><td className="num">37.4%</td><td className="num">19.1%</td><td className="num text-red">+0.6%p</td><td className="num">99</td></tr>
-                  <tr><td>비니</td><td className="num">21.5%</td><td className="num">15.5%</td><td className="num text-red">+0.6%p</td><td className="num">98</td></tr>
-                  <tr><td>팬츠</td><td className="num">5.7%</td><td className="num">18.7%</td><td className="num text-green">-0.2%p</td><td className="num">106</td></tr>
-                  <tr className="warn-row"><td>트레이닝(상의)</td><td className="num">2.7%</td><td className="num">19.5%</td><td className="num text-red">+1.6%p</td><td className="num">96</td></tr>
-                  <tr className="warn-row"><td>점퍼</td><td className="num">2.4%</td><td className="num">20.6%</td><td className="num text-red">+1.7%p</td><td className="num">94</td></tr>
+                  <tr><td>다운점퍼</td><td className="num">37.4%</td><td className="num">19.1%</td><td className="num text-red">+0.6%p</td><td className="num">375</td></tr>
+                  <tr><td>비니</td><td className="num">21.5%</td><td className="num">15.5%</td><td className="num text-red">+0.6%p</td><td className="num">45</td></tr>
+                  <tr><td>팬츠</td><td className="num">5.7%</td><td className="num">18.7%</td><td className="num text-green">-0.2%p</td><td className="num">117</td></tr>
+                  <tr className="warn-row"><td>트레이닝(상의)</td><td className="num">2.7%</td><td className="num">19.5%</td><td className="num text-red">+1.6%p</td><td className="num">153</td></tr>
+                  <tr className="warn-row"><td>점퍼</td><td className="num">2.4%</td><td className="num">20.6%</td><td className="num text-red">+1.7%p</td><td className="num">275</td></tr>
                 </tbody>
               </table>
               <ul style={{ marginTop: "4px" }}>
