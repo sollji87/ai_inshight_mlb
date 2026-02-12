@@ -44,7 +44,7 @@ export default function Section1Strategy() {
                 </li>
                 <li>청키/라이너 37억 면세 재운영, 뮬/슬립온 백화점 35억</li>
                 <li>
-                  <b>기대효과:</b> 26S시즌 말 신발 예상택재고고 <b>909억 수준</b>
+                  <b>기대효과:</b> 26S시즌 말 신발 예상택재고 <b>909억 수준</b>
                 </li>
               </ul>
             </div>
