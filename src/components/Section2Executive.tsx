@@ -101,6 +101,7 @@ export default function Section2Executive() {
                 <thead>
                   <tr>
                     <th>채널</th>
+                    <th className="num">실판매액</th>
                     <th className="num">이익률</th>
                     <th className="num">직접이익</th>
                     <th className="num">YoY</th>
@@ -109,48 +110,56 @@ export default function Section2Executive() {
                 <tbody>
                   <tr className="success-row">
                     <td>자사몰</td>
+                    <td className="num">655</td>
                     <td className="num"><b>62.3%</b></td>
                     <td className="num">371</td>
                     <td className="num">128%</td>
                   </tr>
                   <tr className="success-row">
                     <td>제휴몰</td>
+                    <td className="num">2,294</td>
                     <td className="num">42.6%</td>
                     <td className="num">890</td>
                     <td className="num">138%</td>
                   </tr>
                   <tr className="highlight-row">
                     <td>플래그쉽</td>
+                    <td className="num">2,356</td>
                     <td className="num">39.3%</td>
                     <td className="num">841</td>
                     <td className="num">538%</td>
                   </tr>
                   <tr>
                     <td>대리점</td>
+                    <td className="num">4,955</td>
                     <td className="num">33.5%</td>
                     <td className="num">1,507</td>
                     <td className="num">111%</td>
                   </tr>
                   <tr>
                     <td>RF</td>
+                    <td className="num">2,265</td>
                     <td className="num">31.7%</td>
                     <td className="num">652</td>
                     <td className="num">167%</td>
                   </tr>
                   <tr>
                     <td>면세점</td>
+                    <td className="num">8,813</td>
                     <td className="num">29.5%</td>
                     <td className="num">2,360</td>
                     <td className="num">94%</td>
                   </tr>
                   <tr>
                     <td>백화점</td>
+                    <td className="num">7,150</td>
                     <td className="num">23.2%</td>
                     <td className="num">1,511</td>
                     <td className="num">120%</td>
                   </tr>
                   <tr>
                     <td>직영점</td>
+                    <td className="num">713</td>
                     <td className="num">16.2%</td>
                     <td className="num">105</td>
                     <td className="num">142%</td>

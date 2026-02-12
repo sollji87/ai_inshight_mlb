@@ -84,7 +84,7 @@ export default function Section4Product() {
               <div className="box-title red">신발 재고 — 55.3주(약 13개월), 기말재고 1,133억</div>
               <ul>
                 <li>과잉 재고 약 <b>1,085억원, 851K pcs, 168 모델</b></li>
-                <li>근본 원인: 2021년 여름신발 과다발주, 청키/라이너 트렌드 하락, 스니커즈 확장</li>
+                <li>근본 원인: 여름신발 과다발주, 청키/라이너 트렌드 하락, 스니커즈 확장</li>
                 <li>26S시즌 <b>8월말 50주</b> 관리 목표, 26년말 <b>40주</b> 적정재고 달성</li>
               </ul>
               <div style={{ fontSize: "8px", marginTop: "3px", padding: "4px", background: "#fff", borderRadius: "2px" }}>
