@@ -26,14 +26,14 @@ export default function Section1Strategy() {
                 <li>26S 시즌 할인율 4% 목표 (1월 차기시즌 의류 할인율 3.7%유지중)</li>
                 <li>25F 시즌 종료 임박에 따른 프로모션을 통한 겨울상품 판매촉진, 25FW DJ/DV/PD/WB 품목 구매 시 10% OFF 및 카카오 플친 프로모션 진행중</li>
                 <li>
-                  <b>기대효과:</b> 할인율 1%p↓ 시 직접이익 <b>+290백만원</b>
+                  <b>기대효과:</b> 할인율 1%p↓ 시 직접이익 <b>+265백만원</b>
                 </li>
               </ul>
             </div>
 
             <div className="box box-red">
               <div className="box-title red">
-                2. 신발 재고 긴급 소진 → 목표: 55.3주→40주
+                2. 신발 재고 긴급 소진 → 목표: 55.3주 → 26S 시즌말 50주, 연말 40주
               </div>
               <ul>
                 <li>
@@ -44,7 +44,7 @@ export default function Section1Strategy() {
                 </li>
                 <li>청키/라이너 37억 면세 재운영, 뮬/슬립온 백화점 35억</li>
                 <li>
-                  <b>기대효과:</b> 40주 감축 시 현금흐름 <b>+173억원</b>
+                  <b>기대효과:</b> 26S시즌 말 신발 예상택재고고 <b>909억 수준</b>
                 </li>
               </ul>
             </div>
@@ -59,7 +59,7 @@ export default function Section1Strategy() {
                 </li>
                 <li>
                   2/15~28 &quot;25FW Final Sale&quot; 전 채널 동시 진행(할인
-                  20~30%)
+                  10%)
                 </li>
               </ul>
             </div>
@@ -103,7 +103,7 @@ export default function Section1Strategy() {
               <ul>
                 <li>1월 면세 비중 30.2%, 26년 연간 1,200억 내 운영 목표, 직접이익률 30% + 유지</li>
                 <li>
-                  신라/신세계 3개점 -26~32% 하락 — 저수익 매장 철수 검토
+                  신라/신세계 3개점 -26~32% 하락 — 매장별 매출액 조정을 통한 직접이익률 관리 필요요
                 </li>
               </ul>
             </div>
