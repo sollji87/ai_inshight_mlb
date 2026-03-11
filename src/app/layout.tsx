@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "MLB 브랜드 2026년 1월 경영 보고서",
-  description: "경영관리팀 FP&A | MLB Brand Monthly Report",
+  title: "MLB 브랜드 월간 경영 보고서 (2026.01 / 2026.02)",
+  description: "경영관리팀 FP&A | MLB Brand Monthly Reports",
 };
 
 export default function RootLayout({
