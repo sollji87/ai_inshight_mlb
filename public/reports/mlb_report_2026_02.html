@@ -53,18 +53,6 @@
     .nav { position: sticky; top: 0; background: linear-gradient(135deg, #1a3a5c, #2c5282); padding: 8px 15px; z-index: 100; display: flex; justify-content: center; gap: 6px; flex-wrap: wrap; box-shadow: 0 2px 8px rgba(0,0,0,0.2); }
     .nav a { color: white; text-decoration: none; font-size: 9px; padding: 4px 10px; border-radius: 3px; transition: background 0.2s; }
     .nav a:hover { background: rgba(255,255,255,0.2); }
-    .nav .month-link {
-      border: 1px solid rgba(255,255,255,0.45);
-      font-weight: bold;
-      letter-spacing: 0.2px;
-    }
-    .nav .month-link.active-month { background: rgba(255,255,255,0.3); }
-    .nav .month-sep {
-      color: rgba(255,255,255,0.7);
-      align-self: center;
-      font-size: 9px;
-      user-select: none;
-    }
     .scroll-top { position: fixed; bottom: 20px; right: 20px; background: #1a3a5c; color: white; width: 36px; height: 36px; border-radius: 50%; display: flex; align-items: center; justify-content: center; text-decoration: none; font-size: 14px; box-shadow: 0 2px 10px rgba(0,0,0,0.25); }
     .scroll-top:hover { background: #2c5282; }
     .footer { margin-top: 20px; padding-top: 8px; border-top: 1.5px solid #cbd5e0; font-size: 7px; color: #a0aec0; text-align: center; }
@@ -75,9 +63,6 @@
 <body>
 
 <div class="nav" id="top">
-  <a class="month-link" href="mlb_report_2026_01.html">26.01</a>
-  <a class="month-link active-month" href="mlb_report_2026_02.html">&#10003; 26.02</a>
-  <span class="month-sep">|</span>
   <a href="#sec1">⚾ 전략 & Action</a>
   <a href="#sec2">📊 Executive Summary</a>
   <a href="#sec3">📈 채널분석</a>
@@ -126,12 +111,21 @@
         </div>
         
         <div class="box box-red">
-          <div class="box-title red">3. 적자 매장 클로징 결정 (3개) + 개선 관찰 (1개)</div>
+          <div class="box-title red">3. 적자 매장 클로징 결정 (2개) + 개선 관찰 (1개)</div>
           <ul>
-            <li><b>한남(직):</b> 직접이익 <b>-23.5백만</b>, 이익률 -20.9%, YoY -56.5% → <b>🔴 클로징/다운사이즈</b></li>
             <li><b>AK분당close:</b> 당월 매출 zero, 시즌 DEFICIT — 즉각 정리</li>
             <li><b>롯데분당:</b> 매출 -31.5%, 할인율 +15.9%p에도 수익 미회복</li>
-            <li><b>타임테라스동탄(직):</b> 적자 -5.3백만이나 경미 → 🟡 개선형(Keep & Fix)</li>
+            <li><b>타임테라스동탄(직):</b> 3월 재계약 완료 — 임대료율 12%→<b>9%</b>(-3%p), M/G 삭제 → 🟢 수익성 개선 확정</li>
+          </ul>
+        </div>
+        
+        <div class="box box-blue">
+          <div class="box-title blue">4. 한남(직) 플래그쉽 — 성장 초입, 흑자전환 가시권</div>
+          <ul>
+            <li>매출 YoY +101%(1월)·+76%(2월) 폭발적 성장, 25.12~26.01 <b>연속 흑자</b> 달성</li>
+            <li>26년 임차료 비율 <b>25.9%</b>(전년比 -7%p 개선), 볼캡 36% 고마진 구조</li>
+            <li>2월 비수기 적자(-23.5백만)이나 월평균 150~160백만 안정화 시 흑자 전환 전망</li>
+            <li><b>액션:</b> 비수기 한정판 드랍·세트 크로스셀링, FW시즌 아우터 VMD 강화</li>
           </ul>
         </div>
       </div>
@@ -151,11 +145,11 @@
         </div>
         
         <div class="box box-yellow">
-          <div class="box-title yellow">5. 면세점 역성장(-10.4%) 대응</div>
+          <div class="box-title yellow">5. 면세점 전략적 축소 가속화 (31.1%→목표 25%)</div>
           <ul>
-            <li>신세계면세명동 -53.4%(-919백만), 신라면세장충 -14.8%(-262백만)</li>
-            <li>롯데면세소공 +139.8%(+1,050백만) 성공 레버리지 극대화</li>
-            <li>인바운드 관광객 트렌드 분석 & 면세 전용 기획상품 검토</li>
+            <li>면세 비중 31.1%로 전략적 축소 진행 중 (25년 36.4%→26.01 30.2%→26.02 31.1%)</li>
+            <li>채널 이익률 28.8%→31.5%(+2.7%p) 개선 — 질적 구조 전환 성공</li>
+            <li>롯데면세소공 +192% 폭발적 회복 레버리지 극대화, 신세계명동 -56% 구조 점검</li>
           </ul>
         </div>
         
@@ -324,14 +318,14 @@
           </ul>
         </div>
         
-        <div class="box box-yellow">
-          <div class="box-title yellow">면세점 -10.4% — 최대채널(31.1%) 역성장</div>
+        <div class="box box-blue">
+          <div class="box-title blue">면세점 전략적 축소 진행 중 (비중 31.1%→목표 25%)</div>
           <table>
-            <tr><th>매장</th><th class="num">매출</th><th class="num">YoY</th><th class="num">증감</th></tr>
-            <tr class="danger-row"><td>신세계면세명동</td><td class="num">801</td><td class="num text-red">-53.4%</td><td class="num">-919</td></tr>
-            <tr class="danger-row"><td>신라면세장충</td><td class="num">1,504</td><td class="num text-red">-14.8%</td><td class="num">-262</td></tr>
-            <tr class="success-row"><td>롯데면세소공</td><td class="num">1,801</td><td class="num text-green">+139.8%</td><td class="num">+1,050</td></tr>
+            <tr><th>매장</th><th class="num">매출</th><th class="num">YoY</th><th class="num">이익률</th></tr>
+            <tr class="success-row"><td>롯데면세소공</td><td class="num">1,801</td><td class="num text-green">+140%</td><td class="num">30.9%</td></tr>
+            <tr class="danger-row"><td>신세계면세명동</td><td class="num">801</td><td class="num text-red">-53%</td><td class="num">28.1%</td></tr>
           </table>
+          <div style="font-size: 7.5px; margin-top: 3px;">채널 이익률 28.8%→<b>31.5%(+2.7%p)</b> 질적 개선. 비중 36.4%(25Y)→31.1% 축소 순항</div>
         </div>
         
         <div class="box box-yellow">
@@ -390,11 +384,11 @@
             <tr><th>매장</th><th class="num">매출</th><th class="num">직접이익</th><th class="num">YoY</th><th class="num">이익률</th><th class="num">기여도</th></tr>
             <tr class="success-row"><td>명동중앙</td><td class="num">1,543</td><td class="num">602</td><td class="num">+173%</td><td class="num">42.9%</td><td class="num">71.2%</td></tr>
             <tr class="success-row"><td>성수</td><td class="num">698</td><td class="num">266</td><td class="num">신규</td><td class="num">42.0%</td><td class="num">31.5%</td></tr>
-            <tr class="danger-row"><td>한남</td><td class="num">124</td><td class="num text-red">-23.5</td><td class="num text-red">-56.5%</td><td class="num text-red">-20.9%</td><td class="num">-2.8%</td></tr>
+            <tr class="warn-row"><td>한남</td><td class="num">124</td><td class="num text-red">-23.5</td><td class="num">+76%</td><td class="num text-red">-20.9%</td><td class="num">-2.8%</td></tr>
           </table>
           <ul style="margin-top: 4px;">
             <li>명동+성수 이익률 42~43% — 고수익 2축 구조 안정</li>
-            <li class="text-red">한남 -23.5백만 구조적 적자 — 이익률 -20.9%, 클로징/다운사이즈 검토</li>
+            <li>한남: 2월 비수기 적자이나 매출 YoY +76%, 25.12~26.01 <b>흑자 전환 이력</b> → 성장 모니터링</li>
           </ul>
         </div>
       </div>
@@ -440,9 +434,9 @@
     
     <div class="right">
       <div class="section">
-        <div class="section-title">📉 면세점 (-10.4%) — 양극화 심화</div>
+        <div class="section-title">📉 면세점 — 전략적 축소 순항 (36.4%→31.1%)</div>
         <div class="box box-yellow">
-          <div class="box-title yellow">면세점 Top5 직접이익 (채널기여 86.1%)</div>
+          <div class="box-title yellow">면세점 — 이익률 31.5%(+2.7%p) 질적 개선, 비중 축소 진행</div>
           <table>
             <tr><th>매장</th><th class="num">매출</th><th class="num">직접이익</th><th class="num">YoY</th><th class="num">이익률</th><th class="num">기여도</th></tr>
             <tr class="success-row"><td>신라면세용산</td><td class="num">1,902</td><td class="num">606</td><td class="num">+50%</td><td class="num">35.1%</td><td class="num">24.0%</td></tr>
@@ -681,16 +675,28 @@
       <div class="section">
         <div class="section-title">🚨 저수익 매장 진단</div>
         <div class="box box-red">
-          <div class="box-title red">즉시 클로징 검토 대상</div>
+          <div class="box-title red">즉시 클로징 검토 대상 (2개) + 개선 관찰 (1개)</div>
           <table>
             <tr><th>매장</th><th>채널</th><th class="num">매출</th><th class="num">이익</th><th class="num">이익률</th><th>핵심사유</th></tr>
-            <tr class="danger-row"><td><b>한남(직)</b></td><td>플래그쉽</td><td class="num">124</td><td class="num text-red"><b>-23.5</b></td><td class="num text-red"><b>-20.9%</b></td><td>YoY -56.5%, 구조적 손실</td></tr>
             <tr class="danger-row"><td><b>AK분당close</b></td><td>백화</td><td class="num">-</td><td class="num">-</td><td class="num">-</td><td>매출 zero</td></tr>
             <tr class="danger-row"><td><b>롯데분당</b></td><td>백화</td><td class="num">12</td><td class="num">LOW</td><td class="num">-</td><td>할인+15.9%p,매출-31%</td></tr>
           </table>
           <ul style="margin-top: 3px;">
-            <li>한남: 이익률 -20.9%, 명동(42.9%)·성수(42.0%) 대비 63%p 격차 — 클로징/다운사이즈</li>
-            <li>타임테라스동탄: -5.3백만, -26.8%이나 <b>경미한 적자</b> → 🟡 개선형(Keep & Fix)</li>
+            <li>타임테라스동탄: 3월 재계약 — 임대료율 12%→<b>9%(-3%p)</b>, M/G 삭제(경쟁사 11~12% 대비 최저) → 🟢 흑자전환 전망</li>
+          </ul>
+        </div>
+        
+        <div class="box box-blue">
+          <div class="box-title blue">한남(직) 플래그쉽 — 흑자전환 가시권</div>
+          <table>
+            <tr><th>구분</th><th class="num">25.01</th><th class="num">25.12</th><th class="num">26.01</th><th class="num">26.02</th></tr>
+            <tr><td>매출</td><td class="num">92</td><td class="num">182</td><td class="num"><b>186</b></td><td class="num">124</td></tr>
+            <tr><td>직접이익</td><td class="num text-red">-45</td><td class="num text-green">+18</td><td class="num text-green"><b>+14</b></td><td class="num text-red">-24</td></tr>
+          </table>
+          <ul style="margin-top: 3px;">
+            <li>매출 YoY +101%(1월)·+76%(2월), 25.12~26.01 <b>연속 흑자</b></li>
+            <li>임차료 비율 25.9%(-7%p), 볼캡 36% 고마진, MZ 트래픽 상권</li>
+            <li>월 150~160백만 안정화 시 흑자 전환 전망 → <b>성장 모니터링 유지</b></li>
           </ul>
         </div>
         
@@ -699,7 +705,7 @@
           <table>
             <tr><th>매장</th><th class="num">매출</th><th class="num">할인율↑</th><th class="num">매출YoY</th><th>판단</th></tr>
             <tr class="danger-row"><td>롯데분당</td><td class="num">12</td><td class="num text-red">+15.9%p</td><td class="num text-red">-31.5%</td><td>수요 기반 붕괴</td></tr>
-            <tr class="warn-row"><td>타임테라스동탄</td><td class="num">22</td><td class="num text-red">+8.3%p</td><td class="num text-red">-7.3%</td><td>🟡 개선형</td></tr>
+            <tr class="success-row"><td>타임테라스동탄</td><td class="num">22</td><td class="num">임대료 12%→9%</td><td class="num">M/G 삭제</td><td>🟢 재계약 완료</td></tr>
             <tr class="warn-row"><td>롯데동래</td><td class="num">88</td><td class="num text-red">+10.2%p(시즌)</td><td class="num text-red">-15.8%</td><td>상권 이탈</td></tr>
             <tr class="warn-row"><td>AK수원</td><td class="num">72</td><td class="num text-green">-16.7%p</td><td class="num text-red">-44.1%</td><td>할인의존 구조</td></tr>
           </table>
@@ -739,8 +745,8 @@
     <div style="font-size: 10px; font-weight: bold; margin-bottom: 6px;">📣 CEO 메시지</div>
     <div style="font-size: 8.5px; line-height: 1.45;">
       "2026년 2월, MLB는 <b>매출 +10.4% 성장과 영업이익률 13.6%</b>를 달성하며 수익성 중심 성장 기조를 이어가고 있습니다. 특히 <b>할인율 5.3%</b>로 1월(7.3%) 대비 대폭 안정화되었고, 신발 재고주수도 55.3주→43.4주로 크게 개선되어 1분기 긴급 과제가 가시적 성과를 보이고 있습니다.<br><br>
-      다만 <b>가방 카테고리 -42.5% 급감</b>과 <b>면세점 -10.4% 역성장</b>은 새로운 구조적 과제로 부상했습니다. 볼캡·캔버스화의 고성장 모멘텀을 3월 봄 성수기로 연결하되, 가방 포트폴리오 재편과 운동화 경쟁력 점검을 병행해야 합니다.<br><br>
-      플래그쉽(+135%)·대리점(+21%)·RF(+36%) 등 <b>고수익 채널의 전 방위 성장</b>과 면세 의존도 축소(31.1%)가 지속되고 있습니다. 누적 영업이익률 13.7%로 <b>연간 15% 목표</b> 달성을 향해 순항 중입니다."
+      <b>면세점 비중 축소(36.4%→31.1%)</b>는 전략 방향대로 순항 중이며, 채널 이익률은 오히려 31.5%로 +2.7%p 개선되어 질적 전환이 성공하고 있습니다. 다만 <b>가방 -42.5% 급감</b>은 새로운 구조적 과제로, 볼캡·캔버스화의 고성장 모멘텀을 3월 봄 성수기로 연결하되 가방 포트폴리오 재편과 운동화 경쟁력 점검을 병행해야 합니다.<br><br>
+      플래그쉽(+135%)·대리점(+21%)·RF(+36%) 등 <b>고수익 채널의 전 방위 성장</b>이 지속되고 있으며, 한남점도 매출 YoY +76% 성장과 임차료 비율 개선으로 <b>흑자전환 가시권</b>에 진입했습니다. 누적 영업이익률 13.7%로 <b>연간 15% 목표</b> 달성을 향해 순항 중입니다."
     </div>
   </div>
 
