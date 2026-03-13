@@ -53,6 +53,9 @@
     .nav { position: sticky; top: 0; background: linear-gradient(135deg, #1a3a5c, #2c5282); padding: 8px 15px; z-index: 100; display: flex; justify-content: center; gap: 6px; flex-wrap: wrap; box-shadow: 0 2px 8px rgba(0,0,0,0.2); }
     .nav a { color: white; text-decoration: none; font-size: 9px; padding: 4px 10px; border-radius: 3px; transition: background 0.2s; }
     .nav a:hover { background: rgba(255,255,255,0.2); }
+    .nav .month-link { border: 1px solid rgba(255,255,255,0.45); font-weight: bold; letter-spacing: 0.2px; }
+    .nav .month-link.active-month { background: rgba(255,255,255,0.3); }
+    .nav .month-sep { color: rgba(255,255,255,0.7); align-self: center; font-size: 9px; user-select: none; }
     .scroll-top { position: fixed; bottom: 20px; right: 20px; background: #1a3a5c; color: white; width: 36px; height: 36px; border-radius: 50%; display: flex; align-items: center; justify-content: center; text-decoration: none; font-size: 14px; box-shadow: 0 2px 10px rgba(0,0,0,0.25); }
     .scroll-top:hover { background: #2c5282; }
     .footer { margin-top: 20px; padding-top: 8px; border-top: 1.5px solid #cbd5e0; font-size: 7px; color: #a0aec0; text-align: center; }
@@ -63,6 +66,9 @@
 <body>
 
 <div class="nav" id="top">
+  <a class="month-link" href="mlb_report_2026_01.html">26.01</a>
+  <a class="month-link active-month" href="mlb_report_2026_02.html">&#10003; 26.02</a>
+  <span class="month-sep">|</span>
   <a href="#sec1">⚾ 전략 & Action</a>
   <a href="#sec2">📊 Executive Summary</a>
   <a href="#sec3">📈 채널분석</a>
@@ -123,7 +129,7 @@
           <div class="box-title blue">4. 한남(직) 플래그쉽 — 성장 초입, 흑자전환 가시권</div>
           <ul>
             <li>매출 YoY +101%(1월)·+76%(2월) 폭발적 성장, 25.12~26.01 <b>연속 흑자</b> 달성</li>
-            <li>26년 임차료 비율 <b>25.9%</b>(전년比 -7%p 개선), 볼캡 36% 고마진 구조</li>
+            <li>26년 임차료 비율 <b>25.9%</b>(전년比 -7%p 개선), 주요 매출 상품 볼캡 36% 고마진 구조</li>
             <li>2월 비수기 적자(-23.5백만)이나 월평균 150~160백만 안정화 시 흑자 전환 전망</li>
             <li><b>액션:</b> 비수기 한정판 드랍·세트 크로스셀링, FW시즌 아우터 VMD 강화</li>
           </ul>
@@ -136,7 +142,7 @@
         <div class="section-title">🎯 단기 전략 과제 (Q1)</div>
         
         <div class="box box-yellow">
-          <div class="box-title yellow">4. 스니커즈·볼캡 춘하 시즌 물량 선제 확보</div>
+          <div class="box-title yellow">5. 스니커즈·볼캡 춘하 시즌 물량 선제 확보</div>
           <ul>
             <li>캔버스화 +38.8%(+13.7억), 볼캡/햇/비니 +30.9%(+27.6억) 견인</li>
             <li>3월 봄 성수기 연결 위해 인기 스타일 추가 발주 & 전진 배치</li>
@@ -145,7 +151,7 @@
         </div>
         
         <div class="box box-yellow">
-          <div class="box-title yellow">5. 면세점 전략적 축소 가속화 (31.1%→목표 25%)</div>
+          <div class="box-title yellow">6. 면세점 전략적 축소 가속화 (31.1%→목표 25%)</div>
           <ul>
             <li>면세 비중 31.1%로 전략적 축소 진행 중 (25년 36.4%→26.01 30.2%→26.02 31.1%)</li>
             <li>채널 이익률 28.8%→31.5%(+2.7%p) 개선 — 질적 구조 전환 성공</li>
@@ -154,7 +160,7 @@
         </div>
         
         <div class="box box-yellow">
-          <div class="box-title yellow">6. 자사몰 판매단가 성장 & 제휴몰 수수료 관리</div>
+          <div class="box-title yellow">7. 자사몰 판매단가 성장 & 제휴몰 수수료 관리</div>
           <ul>
             <li>자사몰 매출 -8.5%/수량 +11.2% — 저단가 볼캡/비니 급증으로 판매믹스 저단가 이동</li>
             <li>비니/볼캡을 트래픽 유입 상품으로 활용, <b>교차판매</b>로 고단가 아이템 전환 추진</li>
@@ -167,7 +173,7 @@
         <div class="section-title">🏆 중기 성장 전략 (2026 연간)</div>
         
         <div class="box box-green">
-          <div class="box-title green">7. 채널 포트폴리오 최적화</div>
+          <div class="box-title green">8. 채널 포트폴리오 최적화</div>
           <table>
             <tr><th>채널</th><th class="num">현재비중</th><th class="num">목표</th><th>방향</th></tr>
             <tr class="success-row"><td>플래그쉽</td><td class="num">8.3%</td><td class="num">12%</td><td>북촌·도산 오픈</td></tr>
@@ -178,7 +184,7 @@
         </div>
         
         <div class="box box-green">
-          <div class="box-title green">8~9. 직영점 리밸런싱 & MLB 2.0 리뉴얼</div>
+          <div class="box-title green">9. 직영점 리밸런싱 & MLB 2.0 리뉴얼</div>
           <ul>
             <li>직영점 +96.9% 고성장 — 스타필드 권역(하남·안성·수원) 중심 확대</li>
             <li>아울렛 직관리: 3개점(26S)→7개점(27)</li>
@@ -681,7 +687,7 @@
       <div class="insight-box">
         <div class="insight-title">📌 무신사 채널 투자 확대 근거</div>
         <div style="font-size: 8px;">
-          R12 매출 +20.3%, 직접이익률 39.8%(+1.2%p), 수수료율 28.1%(-0.7%p)<br>
+          최근 12개월(R12) 매출 +20.3%, 직접이익률 39.8%(+1.2%p), 수수료율 28.1%(-0.7%p)<br>
           <b>한계직접이익률 45.9%</b>(기존 38.6% 초과) → 추가투자 시 수익성 희석 없이 이익 증가<br>
           단, 202602 성장률 +5.1%로 둔화 추세 모니터링
         </div>
@@ -712,7 +718,7 @@
           </table>
           <ul style="margin-top: 3px;">
             <li>매출 YoY +101%(1월)·+76%(2월), 25.12~26.01 <b>연속 흑자</b></li>
-            <li>임차료 비율 25.9%(-7%p), 볼캡 36% 고마진, MZ 트래픽 상권</li>
+            <li>임차료 비율 25.9%(-7%p), 주요 매출 상품 볼캡 36% 고마진, MZ 트래픽 상권</li>
             <li>월 150~160백만 안정화 시 흑자 전환 전망 → <b>성장 모니터링 유지</b></li>
           </ul>
         </div>
@@ -768,7 +774,7 @@
   </div>
 
   <div class="footer">
-    F&F Corporation | MLB Brand FP&A Report | Confidential | 2026.03.11 | AI-Assisted Analysis
+    F&F Corporation | MLB Brand FP&A Report | Confidential | 2026.03.16 | AI-Assisted Analysis
   </div>
 
 </div>
